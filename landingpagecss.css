@@ -31,6 +31,17 @@ li {
 
 }
 
+#sect {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 200px;
+margin-top: 50px;
+}
+
+
 .fieldtest {
     display: flex;
     max-width: 1000px;
@@ -46,11 +57,11 @@ li {
 
 .btn {
     padding: 0 20px;
-    height: 50px;
+    height: 30px;
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 400;
     text-transform: uppercase;
-    border: 3px black solid;
+    border: 1px black solid;
     border-radius: 2px;
     background-color: goldenrod;
     cursor: pointer;
