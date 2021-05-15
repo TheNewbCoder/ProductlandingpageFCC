@@ -16,25 +16,13 @@ li {
     list-style: none;
 }
 
-/*form {
-    
-    display: inline-flex;
-    margin: 200 auto;
-    
-    justify-content: normal;
-}*/
 
-h1 {
-    text-align: center;
-    display: inline-flex;
-}
+
+
 .container {
-    display: flex;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    align-items: center;
-    justify-content: normal;
 }
 
 #keylist {
@@ -50,6 +38,10 @@ h1 {
     margin: 0 auto;
     align-items: center;
     justify-content: normal;
+}
+
+.grid {
+    display: flex;
 }
 
 .btn {
